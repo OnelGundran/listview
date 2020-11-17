@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:guiding="16dp"
+    >
+    <ImageView
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:src="@mipmap/ic_launcher"
+        </ImageView>
+    <LinearLayout
+        android:layout_width="match-parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Album of the Music"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:textSize="20xp"
+        android:id="@=id/TextView1"
+        />
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Thank You"
+android:textColor="#000"
+android:textStyle="bold"
+android:layout_margin="5dp"
+android:textSize="15xp"
+    android:id="@=id/"TextView2"
+
+
+    />
+<!--so our layout is set-->
+</LinearLayout>
+</LinearLayout
